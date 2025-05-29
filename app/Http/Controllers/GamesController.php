@@ -51,7 +51,7 @@ class GamesController extends Controller
             return $game['id'] == $id;
         });
         return response()->json([
-            'message' => 'Record Successfull Deleted.',
+            'message' => 'Record Successfully Deleted.',
             'content' => $results
         ], 200);
     }
